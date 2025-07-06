@@ -1,4 +1,3 @@
-# dynamic-parking-pricing
 # 🚗 Dynamic Pricing for Urban Parking Lots
 
 **Capstone Project - Summer Analytics 2025**  
@@ -68,7 +67,7 @@ flowchart TD
 ├── dataset.csv                # Raw data file with features
 ├── notebook.ipynb             # Google Colab notebook with all code
 ├── problem statement.pdf      # Official challenge document
-├── visualizations/            # Bokeh HTML plots
+├── visualizations            # Bokeh HTML plots
 ├── architecture.png           # Visual version of the architecture
 └── README.md                  # This file
 
@@ -94,6 +93,9 @@ flowchart TD
 - Live line plots of parking lot prices.
 - Side-by-side comparison with nearby competitors.
 - Trends over the day (e.g., peak hours vs idle times).
+- HTML Files: price_trends.html
+              competitive_pricing.html
+Open `visualisations.ipynb` in Google Colab.
 
 ---
 
