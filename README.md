@@ -95,9 +95,9 @@ flowchart TD
 - Live line plots of parking lot prices.
 - Side-by-side comparison with nearby competitors.
 - Trends over the day (e.g., peak hours vs idle times).
-- HTML Files: price_trends.html
-              competitive_pricing.html
-Open `visualisations.ipynb` in Google Colab.
+- HTML Files: price_trends.html 'https://drive.google.com/file/d/1kK-xgEfaN73yPilAOVMtMT1NXicLqTYk/view?usp=sharing'
+              competitive_pricing.html 'https://drive.google.com/file/d/1RVjZ4k6_hGCEN9NE6YVlS9XS51E1hCEm/view?usp=sharing'
+- Open `visualisations.ipynb` in Google Colab for the code.
 
 ---
 
