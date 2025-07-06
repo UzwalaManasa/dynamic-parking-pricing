@@ -79,10 +79,10 @@ flowchart TD
 
 1. Clone the repository or download as ZIP:
    ```bash
-   git clone https://github.com/UzwalaManasa/dynamic-parking-pricing.git
+   git clone 'https://github.com/UzwalaManasa/dynamic-parking-pricing.git'
    ```
-2. Open `notebook.ipynb` by opening the link `https://colab.research.google.com/drive/1LzS2c-KBOcyTGiynJu5LRi2enTwBdob6?usp=sharing` in Google Colab or any browser.
-3. Upload `dataset.csv` when prompted.
+2. Open 'notebook.ipynb' by opening the link 'https://colab.research.google.com/drive/1LzS2c-KBOcyTGiynJu5LRi2enTwBdob6?usp=sharing' in Google Colab or any browser.
+3. Upload 'dataset.csv' when prompted.
 4. Run all cells to:
    - Preprocess data
    - Simulate real-time prices using Pathway
@@ -95,9 +95,10 @@ flowchart TD
 - Live line plots of parking lot prices.
 - Side-by-side comparison with nearby competitors.
 - Trends over the day (e.g., peak hours vs idle times).
-- HTML Files: price_trends.html 'https://drive.google.com/file/d/1kK-xgEfaN73yPilAOVMtMT1NXicLqTYk/view?usp=sharing'
-              competitive_pricing.html 'https://drive.google.com/file/d/1RVjZ4k6_hGCEN9NE6YVlS9XS51E1hCEm/view?usp=sharing'
-- Open `visualisations.ipynb` in Google Colab for the code.
+- HTML Files:
+- --> 'price_trends.html' - 'https://drive.google.com/file/d/1kK-xgEfaN73yPilAOVMtMT1NXicLqTYk/view?usp=sharing'
+  --> 'competitive_pricing.html' - 'https://drive.google.com/file/d/1RVjZ4k6_hGCEN9NE6YVlS9XS51E1hCEm/view?usp=sharing'
+- Open 'visualisations.ipynb' in Google Colab for the code.
 
 ---
 
