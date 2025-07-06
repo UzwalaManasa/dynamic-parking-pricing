@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        display: flow-root;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.7.3.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div id="e64a3bb7-563a-46be-b492-675b7bf2075e" data-root-id="p1126" style="display: contents;"></div>
+  
+    <script type="application/json" id="a439fb83-efbf-4c75-b94a-a0f1b4ea93e8">
+      {"d1d2def1-d2fe-4ffb-af1c-cde8ba9d27c8":{"version":"3.7.3","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p1126","attributes":{"height":400,"x_range":{"type":"object","name":"FactorRange","id":"p1136","attributes":{"factors":["Lot A","Lot B","Lot C"]}},"y_range":{"type":"object","name":"DataRange1d","id":"p1128"},"x_scale":{"type":"object","name":"CategoricalScale","id":"p1137"},"y_scale":{"type":"object","name":"LinearScale","id":"p1138"},"title":{"type":"object","name":"Title","id":"p1129","attributes":{"text":"Competitive Pricing Comparison"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1172","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1163","attributes":{"selected":{"type":"object","name":"Selection","id":"p1164","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1165"},"data":{"type":"map","entries":[["index",{"type":"ndarray","array":{"type":"bytes","data":"AAAAAAEAAAACAAAA"},"shape":[3],"dtype":"int32","order":"little"}],["Lot",{"type":"ndarray","array":["Lot A","Lot B","Lot C"],"shape":[3],"dtype":"object","order":"little"}],["Our Price",{"type":"ndarray","array":{"type":"bytes","data":"FAAAAA8AAAASAAAA"},"shape":[3],"dtype":"int32","order":"little"}],["Competitor Avg Price",{"type":"ndarray","array":{"type":"bytes","data":"EwAAABAAAAARAAAA"},"shape":[3],"dtype":"int32","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p1173","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1174"}}},"glyph":{"type":"object","name":"VBar","id":"p1169","attributes":{"x":{"type":"field","field":"Lot","transform":{"type":"object","name":"Dodge","id":"p1162","attributes":{"value":-0.2,"range":{"id":"p1136"}}}},"width":{"type":"value","value":0.35},"top":{"type":"field","field":"Our Price"},"line_color":{"type":"value","value":"#1f77b4"},"fill_color":{"type":"value","value":"#1f77b4"},"hatch_color":{"type":"value","value":"#1f77b4"}}},"nonselection_glyph":{"type":"object","name":"VBar","id":"p1170","attributes":{"x":{"type":"field","field":"Lot","transform":{"id":"p1162"}},"width":{"type":"value","value":0.35},"top":{"type":"field","field":"Our Price"},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"value","value":"#1f77b4"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"VBar","id":"p1171","attributes":{"x":{"type":"field","field":"Lot","transform":{"id":"p1162"}},"width":{"type":"value","value":0.35},"top":{"type":"field","field":"Our Price"},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"#1f77b4"},"hatch_alpha":{"type":"value","value":0.2}}}}},{"type":"object","name":"GlyphRenderer","id":"p1187","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1178","attributes":{"selected":{"type":"object","name":"Selection","id":"p1179","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1180"},"data":{"type":"map","entries":[["index",{"type":"ndarray","array":{"type":"bytes","data":"AAAAAAEAAAACAAAA"},"shape":[3],"dtype":"int32","order":"little"}],["Lot",{"type":"ndarray","array":["Lot A","Lot B","Lot C"],"shape":[3],"dtype":"object","order":"little"}],["Our Price",{"type":"ndarray","array":{"type":"bytes","data":"FAAAAA8AAAASAAAA"},"shape":[3],"dtype":"int32","order":"little"}],["Competitor Avg Price",{"type":"ndarray","array":{"type":"bytes","data":"EwAAABAAAAARAAAA"},"shape":[3],"dtype":"int32","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p1188","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1189"}}},"glyph":{"type":"object","name":"VBar","id":"p1184","attributes":{"x":{"type":"field","field":"Lot","transform":{"type":"object","name":"Dodge","id":"p1177","attributes":{"value":0.2,"range":{"id":"p1136"}}}},"width":{"type":"value","value":0.35},"top":{"type":"field","field":"Competitor Avg Price"},"line_color":{"type":"value","value":"#ff7f0e"},"fill_color":{"type":"value","value":"#ff7f0e"},"hatch_color":{"type":"value","value":"#ff7f0e"}}},"nonselection_glyph":{"type":"object","name":"VBar","id":"p1185","attributes":{"x":{"type":"field","field":"Lot","transform":{"id":"p1177"}},"width":{"type":"value","value":0.35},"top":{"type":"field","field":"Competitor Avg Price"},"line_color":{"type":"value","value":"#ff7f0e"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#ff7f0e"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"value","value":"#ff7f0e"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"VBar","id":"p1186","attributes":{"x":{"type":"field","field":"Lot","transform":{"id":"p1177"}},"width":{"type":"value","value":0.35},"top":{"type":"field","field":"Competitor Avg Price"},"line_color":{"type":"value","value":"#ff7f0e"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#ff7f0e"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"#ff7f0e"},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1135","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p1149"},{"type":"object","name":"WheelZoomTool","id":"p1150","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p1151","attributes":{"dimensions":"both","overlay":{"type":"object","name":"BoxAnnotation","id":"p1152","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p1158","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p1157","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"SaveTool","id":"p1159"},{"type":"object","name":"ResetTool","id":"p1160"},{"type":"object","name":"HelpTool","id":"p1161"}]}},"left":[{"type":"object","name":"LinearAxis","id":"p1144","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1145","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1146"},"axis_label":"Price","major_label_policy":{"type":"object","name":"AllLabels","id":"p1147"}}}],"below":[{"type":"object","name":"CategoricalAxis","id":"p1139","attributes":{"ticker":{"type":"object","name":"CategoricalTicker","id":"p1140"},"formatter":{"type":"object","name":"CategoricalTickFormatter","id":"p1141"},"axis_label":"Parking Lot","major_label_policy":{"type":"object","name":"AllLabels","id":"p1142"}}}],"center":[{"type":"object","name":"Grid","id":"p1143","attributes":{"axis":{"id":"p1139"}}},{"type":"object","name":"Grid","id":"p1148","attributes":{"dimension":1,"axis":{"id":"p1144"}}},{"type":"object","name":"Legend","id":"p1175","attributes":{"location":"top_left","items":[{"type":"object","name":"LegendItem","id":"p1176","attributes":{"label":{"type":"value","value":"Our Price"},"renderers":[{"id":"p1172"}]}},{"type":"object","name":"LegendItem","id":"p1190","attributes":{"label":{"type":"value","value":"Competitor Avg"},"renderers":[{"id":"p1187"}]}}]}}]}}]}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('a439fb83-efbf-4c75-b94a-a0f1b4ea93e8').textContent;
+              const render_items = [{"docid":"d1d2def1-d2fe-4ffb-af1c-cde8ba9d27c8","roots":{"p1126":"e64a3bb7-563a-46be-b492-675b7bf2075e"},"root_ids":["p1126"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>
