@@ -34,7 +34,9 @@ flowchart TD
     D --> E[Model 1: Linear]
     D --> F[Model 2: Demand-Based]
     D --> G[Model 3: Competitive]
-    E & F & G --> H[Price Output Stream]
+    E --> H[Price Output Stream]
+    F --> H
+    G --> H
     H --> I[Real-Time Bokeh Dashboard]
 ```
 
